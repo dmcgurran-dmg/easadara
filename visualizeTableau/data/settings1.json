@@ -1,0 +1,22 @@
+{
+  "SERVER_TYPE": "server",
+  "TS_SERVER_URL": "<tableau server url>",
+  "PAT_NAME": "access_token",
+  "PAT_SECRET": "",
+  "SITE_ID": "",
+  "HYPER_OUTPUT" : "output/tableau_server.hyper",
+  "EXTRACT_SCHEMA" : "Catalog",
+  "REPOSITORY_HOST" : "<tableau server url>",
+  "REPOSITORY_PORT" : "8060",
+  "REPOSITORY_DATABASE" : "workgroup",
+  "REPOSITORY_USER" : "readonly",
+  "REPOSITORY_PASSWORD" : "<password>",
+  "REPOSITORY_PAGINATION" : "500000",
+  "VIZUALIZE_MODE" : "catalog",
+  "ABORT_ON_ERROR": "False",
+  "RELOGIN_ON_CHANGE_SITE": "True",
+  "PAGED_QUERY_FIRST_VALUE": "1000",
+  "INCLUDE_EXCLUDE_FLAG":"EXCLUDE",
+  "include_exclude_flag_comment":"EXCLUDE,INCLUDE else all sites",
+  "SITE_LIST": "[Default]"
+}
